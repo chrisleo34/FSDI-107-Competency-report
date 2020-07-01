@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/admin.css">
+
+  <title>Admin</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(179, 145, 122, 0.801)">
+    <a class="navbar-brand" href="#">OnlineStore</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin.html">Register</a>
+        </li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0">
+        <input id="txt-search" class="form-control  mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="btn-search" class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+
+
+
+
+  <div class="container">
+    <h1>Register a New Product</h1>
+  </div>
+
+  <div class="container">
+    <div>
+      <div class="col-sm-4 form-group ">
+        <label for="code">Code:</label>
+        <input id="code" type="code" class="form-control" type="text">
+      </div>
+
+      <div class="col-sm-4 form-group">
+        <label for="title">Title:</label>
+        <input id="title" type="title" class="form-control" type="text">
+      </div>
+
+      <div class="col-sm-4 form-group">
+        <label for="price">Price:</label>
+        <input id="price" type="price" class="form-control" type="text">
+      </div>
+
+      <div class="col-sm-4 form-group">
+        <label for="description">Description:</label>
+        <input id="description" type="description" class="form-control" type="text">
+      </div>
+      <div class=" col-sm-4 form-group">
+        <label for="category">Category:</label>
+        <input id="category" type="category" class="form-control" type="text">
+      </div>
+      <div class="col-sm-3 form-group" id="ddData">
+        <label for="exampleFormControlSelect1">Image:</label>
+        <select id="image" class="form-control">
+          <option value="https://cdn.alzashop.com/ImgW.ashx?fd=f3&cd=SPICc55">Iphone X</option>
+
+          <option
+            value="https://image-us.samsung.com/SamsungUS/home/televisions-and-home-theater/tvs/full-hd/pd/un32n5300afxza/gallery/DT-UN32N5300AFXZA-heroimage-050118.jpg?$product-details-jpg$">
+            Samsung Tv</option>
+
+          <option value="https://media.kohlsimg.com/is/image/kohls/3540402_Charcoal?wid=600&hei=600&op_sharpen=1">Alexa
+            Speakers</option>
+
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div id="alert-box" class="container alert alert-info     hidden" style="text-align: center;" role="alert">
+    You have registered your New Product! :D
+  </div>
+
+  <div class="container">
+    <button id="btn-register" class="btn btn-secondary" style="background-color: rgba(179, 145, 122, 0.801)"
+      type="submit">Register</button>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
+  <script src="/js/admin.js"></script>
+
+</body>
+
+</html>

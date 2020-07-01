@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 2px inline rgb(126, 112, 158);
+}
+
+.hidden {
+    display: none;
+}
+
+button link {
+    color: black;
+}

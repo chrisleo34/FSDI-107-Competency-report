@@ -1,0 +1,40 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.item {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 1px inset rgb(98, 84, 129);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.item img {
+    width: 25rem;
+    height: 22rem;
+}
+
+
+.itemPrice {
+    font-size: 2rem;
+    color: rgb(107, 190, 211)
+}
+
+
+.nav {
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 2px inline rgb(126, 112, 158);
+}
